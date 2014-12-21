@@ -8,6 +8,7 @@ For each record in the dataset it is provided:
 - Mean and standard deviation of Jerk signals and magnitude.
 
 |Field Name|Type|Values or explanation|Variable|
+|------------|------------|------------|------------|
 |subject_id|int|1:30|An identifier of the subject who carried out the experiment|
 |activity_label|Factor||Activity label|
                                         |WALKING
