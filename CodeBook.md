@@ -10,8 +10,7 @@ For each record in the dataset it is provided:
 |Field Name|Type|Values or explanation|Variable|
 |------------|------------|------------|------------|
 |subject_id|int|1:30|An identifier of the subject who carried out the experiment|
-|activity_label|Factor||Activity label|
-|||WALKING
+|activity_label|Factor|WALKING|Activity label|
 |||WALKING_UPSTAIRS
 |||WALKING_DOWNSTAIRS
 |||SITTING
