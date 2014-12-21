@@ -10,7 +10,8 @@ For each record in the dataset it is provided:
 |Field Name|Type|Values or explanation|Variable|
 |------------|------------|------------|------------|
 |subject_id|int|1:30|An identifier of the subject who carried out the experiment|
-|activity_label|Factor|WALKING|Activity label|
+|activity_label|Factor||Activity label|
+|||WALKING
 |||WALKING_UPSTAIRS
 |||WALKING_DOWNSTAIRS
 |||SITTING
@@ -31,7 +32,7 @@ The angular velocity vector measured by the gyroscope in units radians/second.
 Values of futures in input data set and in output tidy data set are normalized and bounded within [-1,1].
 
 |Field Name            |      Type    
-
+|------------|------------
 | tBodyAcc-mean()-X          | num       
 | tBodyAcc-mean()-Y          | num  
 | tBodyAcc-mean()-Z          | num  
