@@ -6,10 +6,14 @@ For each record in the dataset it is provided:
 - Mean and standard deviation of triaxial acceleration from the accelerometer.
 - Mean and standard deviation of triaxial angular velocity from the gyroscope. 
 - Mean and standard deviation of Jerk signals and magnitude.
-
+<table>
+<tr>
 |Field Name                  |Type        |Values or explanation    | Variable
-
+</tr>
+<tr>
  |subject_id                 | int       |1:30                      |An identifier of the subject who carried out the experiment
+</tr>
+<tr>
  |activity_label             | Factor   |                           |Activity label
                                         |WALKING
                                         |WALKING_UPSTAIRS
@@ -18,6 +22,8 @@ For each record in the dataset it is provided:
                                         |STANDING
                                         |LAYING
                                         
+</tr>
+</table>
 The output data set contains the average of selected variables (only the measurements on the mean and standard deviation for each measurement was extracted) for each activity and each subject (see README.txt to read about analysis script).
 The pattern is as follows:
 - prefix 't' to denote time or prefix f' to indicate frequency domain signals
