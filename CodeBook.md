@@ -12,11 +12,11 @@ For each record in the dataset it is provided:
 |subject_id|int|1:30|An identifier of the subject who carried out the experiment|
 |activity_label|Factor||Activity label|
 |||WALKING
-|||WALKING_UPSTAIRS
-|||WALKING_DOWNSTAIRS
-|||SITTING
-|||STANDING
-|||LAYING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
 
 The output data set contains the average of selected variables (only the measurements on the mean and standard deviation for each measurement was extracted) for each activity and each subject (see README.txt to read about analysis script).
 The pattern is as follows:
