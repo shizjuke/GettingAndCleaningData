@@ -1,4 +1,4 @@
-# This R script, called run_analysis.R, does the following:
+# This R script does the following:
 
 # - Appropriately labels the data set with descriptive variable names. 
 # - Extracts only the measurements on the mean and standard deviation for each measurement. 

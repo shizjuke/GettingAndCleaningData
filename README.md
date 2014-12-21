@@ -1,5 +1,4 @@
-Getting and Cleaning Data - Course Project
-======================
+####Getting and Cleaning Data - Course Project
 
 This repository contains one script: run_analysis.R. This script perform analysis on data collected from the accelerometers from the Samsung Galaxy S smartphone and write tidy data set to tidy.txt file.
 
