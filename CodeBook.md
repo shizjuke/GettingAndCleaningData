@@ -6,15 +6,10 @@ For each record in the dataset it is provided:
 - Mean and standard deviation of triaxial acceleration from the accelerometer.
 - Mean and standard deviation of triaxial angular velocity from the gyroscope. 
 - Mean and standard deviation of Jerk signals and magnitude.
-<table>
-<tr>
-|Field Name                  |Type        |Values or explanation    | Variable
-</tr>
-<tr>
- |subject_id                 | int       |1:30                      |An identifier of the subject who carried out the experiment
-</tr>
-<tr>
- |activity_label             | Factor   |                           |Activity label
+
+|Field Name|Type|Values or explanation|Variable|
+|subject_id|int|1:30|An identifier of the subject who carried out the experiment|
+|activity_label|Factor||Activity label|
                                         |WALKING
                                         |WALKING_UPSTAIRS
                                         |WALKING_DOWNSTAIRS
